@@ -1,0 +1,65 @@
+PODS:
+  - Alamofire (4.9.1)
+  - FBSDKCoreKit (5.13.1):
+    - FBSDKCoreKit/Basics (= 5.13.1)
+    - FBSDKCoreKit/Core (= 5.13.1)
+  - FBSDKCoreKit/Basics (5.13.1)
+  - FBSDKCoreKit/Core (5.13.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.11.1):
+    - FBSDKLoginKit/Login (= 5.11.1)
+  - FBSDKLoginKit/Login (5.11.1):
+    - FBSDKCoreKit (~> 5.0)
+  - iProgressHUD (1.1.1)
+  - IQKeyboardManagerSwift (6.4.1)
+  - Magnetic (3.1.0)
+  - MGStarRatingView (1.0.0)
+  - PieCharts (0.0.7)
+  - SDWebImage (5.3.2):
+    - SDWebImage/Core (= 5.3.2)
+  - SDWebImage/Core (5.3.2)
+  - SwiftRangeSlider (2.0.0)
+  - TTGTagCollectionView (1.11.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - FBSDKLoginKit
+  - iProgressHUD
+  - IQKeyboardManagerSwift
+  - Magnetic
+  - MGStarRatingView (~> 1.0.0)
+  - PieCharts
+  - SDWebImage
+  - SwiftRangeSlider
+  - TTGTagCollectionView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - iProgressHUD
+    - IQKeyboardManagerSwift
+    - Magnetic
+    - MGStarRatingView
+    - PieCharts
+    - SDWebImage
+    - SwiftRangeSlider
+    - TTGTagCollectionView
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  FBSDKCoreKit: 8fb98209109fb684937f05d534305edb18c20207
+  FBSDKLoginKit: 0e4572e0279e477103b57978e3ea05fac1dd673d
+  iProgressHUD: caa742128253c97f2c2e1ec59e2bbe6cf689df6a
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  Magnetic: fb3903fb17d70191af155ec22ae039dc9748e66c
+  MGStarRatingView: 78c9bfc20d6b6f2a4d6b69e7821043685ad1372a
+  PieCharts: 30e50dfa7dc19e5b84e9878d32089673ef5d0453
+  SDWebImage: 6ac2eb96571bff96ecde31a987172c5934a0eb7d
+  SwiftRangeSlider: f86e3b637c961120158fa1a89277c8343845cbe4
+  TTGTagCollectionView: 86fcbfa6a7493c9e860b01c2e693cffc8acf6de1
+
+PODFILE CHECKSUM: 1c1154c36aa573378c933d8b59a246c6ff831bbf
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-BMV/Pods-BMV-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework
+${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/MGStarRatingView/MGStarRatingView.framework
+${BUILT_PRODUCTS_DIR}/Magnetic/Magnetic.framework
+${BUILT_PRODUCTS_DIR}/PieCharts/PieCharts.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftRangeSlider/SwiftRangeSlider.framework
+${BUILT_PRODUCTS_DIR}/TTGTagCollectionView/TTGTagCollectionView.framework
+${BUILT_PRODUCTS_DIR}/iProgressHUD/iProgressHUD.framework

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ReservedCell" id="PlF-YP-6nr" customClass="ReservedCell" customModule="BMV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6zJ-XU-vId">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="180"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Layer 4-1" translatesAutoresizingMaskIntoConstraints="NO" id="Qla-6K-Spf">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="178"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdA-7c-y12">
+                                <rect key="frame" x="123" y="7" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="d6F-Xo-Giv"/>
+                                    <constraint firstAttribute="width" constant="30" id="doX-zV-DXF"/>
+                                </constraints>
+                                <state key="normal" image="Group 11"/>
+                                <state key="selected" image="Group 23"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="big-offer-icon" translatesAutoresizingMaskIntoConstraints="NO" id="YBo-3t-jQz">
+                                <rect key="frame" x="113" y="130" width="63" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="63" id="PGe-Ks-v08"/>
+                                    <constraint firstAttribute="height" constant="58" id="Szt-Ps-wiA"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$99.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qB-CX-ouR">
+                                <rect key="frame" x="32" y="142" width="79" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="Hl5-im-IrO">
+                                <rect key="frame" x="121" y="144" width="46" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="uRV-hN-gfP"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="25% ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.72999578710000002" green="0.0018316488709999999" blue="0.0016002993799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="OFF">
+                                        <attributes>
+                                            <color key="NSColor" red="0.72999578710000002" green="0.0018316488709999999" blue="0.0016002993799999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeC-rU-QJa">
+                                <rect key="frame" x="5" y="139" width="22" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="FcS-aO-boW"/>
+                                    <constraint firstAttribute="width" constant="22" id="sqp-FT-Sz2"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="red-add"/>
+                                <state key="selected" image="Layer 69"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zeC-rU-QJa" firstAttribute="bottom" secondItem="6zJ-XU-vId" secondAttribute="bottomMargin" id="3AJ-6g-94M"/>
+                            <constraint firstItem="Qla-6K-Spf" firstAttribute="leading" secondItem="6zJ-XU-vId" secondAttribute="leading" id="6ib-NZ-f4s"/>
+                            <constraint firstItem="1qB-CX-ouR" firstAttribute="bottom" secondItem="Hl5-im-IrO" secondAttribute="bottom" id="8sE-1K-CjT"/>
+                            <constraint firstItem="Hl5-im-IrO" firstAttribute="leading" secondItem="1qB-CX-ouR" secondAttribute="trailing" constant="10" id="AJb-jd-1zu"/>
+                            <constraint firstAttribute="bottom" secondItem="Qla-6K-Spf" secondAttribute="bottom" constant="2" id="Llp-62-YVI"/>
+                            <constraint firstAttribute="bottom" secondItem="1qB-CX-ouR" secondAttribute="bottom" constant="4" id="VYB-zQ-4wN"/>
+                            <constraint firstItem="1qB-CX-ouR" firstAttribute="centerY" secondItem="YBo-3t-jQz" secondAttribute="centerY" id="ahg-Ug-8kx"/>
+                            <constraint firstItem="Qla-6K-Spf" firstAttribute="top" secondItem="6zJ-XU-vId" secondAttribute="top" id="bab-dv-fCc"/>
+                            <constraint firstAttribute="trailing" secondItem="YBo-3t-jQz" secondAttribute="trailing" constant="-16" id="dFZ-42-nvv"/>
+                            <constraint firstAttribute="trailing" secondItem="hdA-7c-y12" secondAttribute="trailing" constant="7" id="dll-4w-4eX"/>
+                            <constraint firstItem="1qB-CX-ouR" firstAttribute="centerY" secondItem="Hl5-im-IrO" secondAttribute="centerY" constant="-1" id="j1S-Vk-wPE"/>
+                            <constraint firstItem="zeC-rU-QJa" firstAttribute="leading" secondItem="6zJ-XU-vId" secondAttribute="leading" constant="5" id="lKF-VF-r8T"/>
+                            <constraint firstItem="hdA-7c-y12" firstAttribute="top" secondItem="6zJ-XU-vId" secondAttribute="top" constant="7" id="mrS-Q5-VXE"/>
+                            <constraint firstAttribute="trailing" secondItem="Hl5-im-IrO" secondAttribute="trailing" constant="-7" id="msl-yz-4lG"/>
+                            <constraint firstItem="1qB-CX-ouR" firstAttribute="leading" secondItem="zeC-rU-QJa" secondAttribute="trailing" constant="5" id="nHt-Tx-q63"/>
+                            <constraint firstAttribute="trailing" secondItem="Qla-6K-Spf" secondAttribute="trailing" id="v9a-Vd-TDL"/>
+                            <constraint firstAttribute="bottom" secondItem="YBo-3t-jQz" secondAttribute="bottom" constant="-8" id="yh0-4V-jCu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="6zJ-XU-vId" secondAttribute="bottom" constant="20" id="Db0-De-WJJ"/>
+                <constraint firstItem="6zJ-XU-vId" firstAttribute="leading" secondItem="PlF-YP-6nr" secondAttribute="leading" id="E2Q-1y-tWE"/>
+                <constraint firstItem="6zJ-XU-vId" firstAttribute="top" secondItem="PlF-YP-6nr" secondAttribute="top" id="IjE-Vm-tMi"/>
+                <constraint firstAttribute="trailing" secondItem="6zJ-XU-vId" secondAttribute="trailing" constant="20" id="nl6-18-uVf"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="LDA-mN-Sfn"/>
+            <size key="customSize" width="144" height="148"/>
+            <connections>
+                <outlet property="addReserveBtn" destination="hdA-7c-y12" id="2oF-2G-VnK"/>
+                <outlet property="itemDiscountlbl" destination="Hl5-im-IrO" id="eUv-2j-Kdm"/>
+                <outlet property="itemImage" destination="Qla-6K-Spf" id="ZUb-Ik-iz2"/>
+                <outlet property="itemPricelbl" destination="1qB-CX-ouR" id="nXF-J3-WBF"/>
+            </connections>
+            <point key="canvasLocation" x="108.69565217391305" y="78.348214285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Group 11" width="27" height="26"/>
+        <image name="Group 23" width="27" height="26"/>
+        <image name="Layer 4-1" width="158" height="159"/>
+        <image name="Layer 69" width="20" height="20"/>
+        <image name="big-offer-icon" width="93" height="97"/>
+        <image name="red-add" width="37" height="55"/>
+    </resources>
+</document>

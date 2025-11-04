@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirLTStd-Heavy.otf">
+            <string>AvenirLTStd-Heavy</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HeartStoreCell" id="cW8-zr-nOK" customClass="HeartStoreCell" customModule="BMV" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="158" height="187"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="158" height="187"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TAW-PS-yhx">
+                        <rect key="frame" x="0.0" y="0.0" width="158" height="187"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Layer 1-5" translatesAutoresizingMaskIntoConstraints="NO" id="uq1-Ng-ssL">
+                                <rect key="frame" x="0.0" y="0.0" width="158" height="167"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem Store Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzx-Qy-ned">
+                                <rect key="frame" x="0.0" y="141" width="158" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="UQR-s5-uMt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirLTStd-Heavy" family="Avenir LT Std" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uq1-Ng-ssL" firstAttribute="leading" secondItem="Pzx-Qy-ned" secondAttribute="leading" id="1Lz-2x-awh"/>
+                            <constraint firstItem="uq1-Ng-ssL" firstAttribute="top" secondItem="TAW-PS-yhx" secondAttribute="top" id="L4p-hp-9f7"/>
+                            <constraint firstAttribute="bottom" secondItem="Pzx-Qy-ned" secondAttribute="bottom" constant="28" id="UwH-iA-5mm"/>
+                            <constraint firstItem="uq1-Ng-ssL" firstAttribute="leading" secondItem="TAW-PS-yhx" secondAttribute="leading" id="fcI-3d-dIH"/>
+                            <constraint firstItem="uq1-Ng-ssL" firstAttribute="trailing" secondItem="Pzx-Qy-ned" secondAttribute="trailing" id="oHJ-UF-06o"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="TAW-PS-yhx" secondAttribute="bottom" id="0w8-id-NMv"/>
+                <constraint firstItem="TAW-PS-yhx" firstAttribute="leading" secondItem="cW8-zr-nOK" secondAttribute="leading" id="9Ha-TA-x7c"/>
+                <constraint firstAttribute="trailing" secondItem="TAW-PS-yhx" secondAttribute="trailing" id="gnc-Jl-6Y1"/>
+                <constraint firstItem="TAW-PS-yhx" firstAttribute="top" secondItem="cW8-zr-nOK" secondAttribute="top" id="mrm-9j-kQg"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="3sc-Zi-Cym"/>
+            <size key="customSize" width="144" height="148"/>
+            <point key="canvasLocation" x="108.69565217391305" y="77.34375"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Layer 1-5" width="158" height="167"/>
+    </resources>
+</document>
